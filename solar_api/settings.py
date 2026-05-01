@@ -60,6 +60,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "solar_api.urls"
 
+CORS_ALLOWED_ORIGINS = [
+    "https://solar-frontend-omega.vercel.app",
+]
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 TEMPLATES = [
