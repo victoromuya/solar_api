@@ -8,9 +8,9 @@ from django.conf import settings
 
 
 FALLBACK_PRICE_RANGES_NAIRA = {
-    "inverter_per_kva": {"min": 150_000, "max": 250_000},
-    "battery_200ah": {"min": 100_000, "max": 150_000},
-    "panel_200w": {"min": 85_000, "max": 110_000},
+    "inverter_per_kva": {"min": 100_000, "max": 200_000},
+    "battery_200ah": {"min": 150_000, "max": 370_000},
+    "panel_200w": {"min": 100_000, "max": 150_000},
 }
 
 FALLBACK_SOURCES = [
